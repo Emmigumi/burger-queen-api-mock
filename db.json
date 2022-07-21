@@ -2,7 +2,7 @@
   "orders": [
     {
       "id": 1,
-      "userId": 1,
+      "status": "entregado",
       "client": "Jude Milhon",
       "products": [
         {
@@ -28,8 +28,156 @@
           }
         }
       ],
-      "status": "pending",
-      "dataEntry": "2022-03-05 15:00"
+      "dataEntry": "2022-03-05 15:00",
+      "dateProcessed": "2022-07-18T15:59:13.191Z",
+      "dataPrepare": "2022-07-15T01:55:41.885Z",
+      "time": 188995.7
+    },
+    {
+      "client": "erika",
+      "products": [
+        {
+          "qty": 3,
+          "total": 30,
+          "product": {
+            "id": 3,
+            "name": "Sandwich de jamón y queso",
+            "price": 10,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 3,
+          "total": 21,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 7,
+            "image": "https://png.pngtree.com/png-vector/20210915/ourlarge/pngtree-coffee-latte-png-image_3923810.jpg",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pendiente",
+      "dataEntry": "2022-07-15T01:57:50.122Z",
+      "total": 51,
+      "id": 2
+    },
+    {
+      "id": 3,
+      "status": "preparado",
+      "client": "ruben",
+      "products": [
+        {
+          "qty": 2,
+          "total": 10,
+          "product": {
+            "id": 1,
+            "name": "Café americano",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 2,
+          "total": 10,
+          "product": {
+            "id": 7,
+            "name": "Papas fritas",
+            "price": 5,
+            "image": "https://images.vexels.com/media/users/3/149820/isolated/preview/73fb60c8f9821107d4f14d0c620919fe-dibujos-animados-de-personaje-de-caja-de-papas-fritas.png",
+            "type": "Almuerzo y cena",
+            "dateEntry": "2022-06-15 15:14:10"
+          }
+        }
+      ],
+      "dataEntry": "2022-07-15T01:58:20.943Z",
+      "dataPrepare": "2022-07-18T16:00:47.365Z",
+      "total": 20,
+      "time": 5162.44
+    },
+    {
+      "client": "erika sanchez",
+      "products": [
+        {
+          "qty": 2,
+          "total": 20,
+          "product": {
+            "id": 3,
+            "name": "Sandwich de jamón y queso",
+            "price": 10,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/sandwich.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "total": 7,
+          "product": {
+            "id": 2,
+            "name": "Café americano",
+            "price": 7,
+            "image": "https://png.pngtree.com/png-vector/20210915/ourlarge/pngtree-coffee-latte-png-image_3923810.jpg",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "total": 5,
+          "product": {
+            "id": 1,
+            "name": "Café americano",
+            "price": 5,
+            "image": "https://raw.githubusercontent.com/ssinuco/burger-queen-api-mock/main/resources/images/coffee.png",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        },
+        {
+          "qty": 1,
+          "total": 7,
+          "product": {
+            "id": 4,
+            "name": "Jugo de frutas natural",
+            "price": 7,
+            "image": "https://i.pinimg.com/originals/82/d6/eb/82d6eb80539168bc12255649f76c849b.jpg",
+            "type": "Desayuno",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pendiente",
+      "dataEntry": "2022-07-18T15:58:06.664Z",
+      "total": 39,
+      "id": 4
+    },
+    {
+      "client": "Vania",
+      "products": [
+        {
+          "qty": 3,
+          "total": 45,
+          "product": {
+            "id": 6,
+            "name": "Hamburguesa doble",
+            "price": 15,
+            "image": "http://bk-latam-prod.s3.amazonaws.com/sites/burgerking.com.pe/files/MegaTocino_300x270px_0.png",
+            "type": "Almuerzo y cena",
+            "dateEntry": "2022-03-05 15:14:10"
+          }
+        }
+      ],
+      "status": "pendiente",
+      "dataEntry": "2022-07-20T13:42:15.322Z",
+      "total": 45,
+      "id": 5
     }
   ],
   "products": [
