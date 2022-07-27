@@ -17,7 +17,7 @@ app.db = router.db
 
 // You must apply the auth middleware before the router
 app.use(middlewares);
-/* app.use(rules); */
+app.use(rules);
 app.use(auth);
 app.use(router);
 app.listen(port, () => {
